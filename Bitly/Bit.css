@@ -1,0 +1,58 @@
+.Bit {
+    padding-top: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#start {
+    padding-top: 120px;
+}
+
+#two {
+    background: #253857;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#three {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#one {
+    color: white;
+    text-align: center;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card {
+    border: none
+}
+
+#line {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+p.font {
+    font-size: 15px;
+}
+
+p.font a {
+    color: black;
+}
+
+h6.head {
+    font-weight: bold;
+}
+
+button.stb {
+    padding-left: 20px;
+}
