@@ -1,0 +1,17 @@
+p {
+    font-size: 20px;
+    border-radius: 200px;
+    background-color: #c2c0bc;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp2643985.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#id {
+    background-color: #c2c0bc;
+}
