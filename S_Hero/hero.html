@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Know ur SUPER HERO</title>
     <link rel="stylesheet" href="hero.css" />
@@ -14,65 +15,67 @@
 <body>
     <div class="container">
 
-        <div style="text-align: center;">
-            <h1 style="font-size: 6rem; color: #FDDB27FF; padding-top: 30px;font-family: 'Chelsea Market', cursive;"><strong>SUPER HERO</strong></h1>
+        <div style="text-align: center;padding-top: 40px;">
+            <h1 style="font-size: 7rem; color: #C3073F; padding-top: 30px;font-family: 'Piedra', cursive;
+            font-weight: 300;"><strong>SUPER HERO</strong></h1>
+            <br>
+            <br>
+
             <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6" style="padding-top: 45px;">
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-8">
-                            <input type="text" class="form-control form-control-sm" placeholder="Id" id="id">
-                        </div>
-                        <div class="col-2">
-                            <button type="button" class="btn btn-light btn-sm" id="srch">Search</button>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-                    <div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <input type="text" class="form-control form-control-md" placeholder="Id" id="id">
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-md" id="srch">Search</button>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <br>
+            <br>
+            <div class="card" style="padding-bottom: 30px;">
+
+                <div class="row">
+                    <div class="col d-flex flex-column justify-content-center text-center">
+
                         <div class="image" style="padding-top: 30px;">
                             <img id="himage" class="img-fluid img-thumbnail" src="data:image/png;base64,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"
                                 alt="H_Image">
                         </div>
                     </div>
+                    <div class="col d-flex flex-column justify-content-center text-center" style="margin-top: 3.5%;">
 
-                    <br>
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-8">
-                            <div id="hname">
-                                <p> Hero Name : <span></span></p>
-                            </div>
-                            <div id="fname">
-                                <p> Full Name : <span></span></p>
-                            </div>
-                            <div id="intelligence">
-                                <p> Intelligence : <span></span></p>
-                            </div>
-                            <div id="strength">
-                                <p> Strength : <span></span></p>
-                            </div>
-                            <div id="speed">
-                                <p> Speed : <span></span></p>
-                            </div>
-                            <div id="durability">
-                                <p> Durability : <span></span></p>
-                            </div>
-                            <div id="power">
-                                <p> Power : <span></span></p>
-                            </div>
-                            <div id="combat">
-                                <p> Combat : <span></span></p>
-                            </div>
+                        <div id="hname">
+                            <p> Hero Name : <span>???</span></p>
+                        </div>
+                        <div id="fname">
+                            <p> Full Name : <span>???</span></p>
+                        </div>
+                        <div id="intelligence">
+                            <p> Intelligence : <span>???</span></p>
+                        </div>
+                        <div id="strength">
+                            <p> Strength : <span>???</span></p>
+                        </div>
+                        <div id="speed">
+                            <p> Speed : <span>???</span></p>
+                        </div>
+                        <div id="durability">
+                            <p> Durability : <span>???</span></p>
+                        </div>
+                        <div id="power">
+                            <p> Power : <span>???</span></p>
+                        </div>
+                        <div id="combat">
+                            <p> Combat : <span>???</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-2"></div>
-                <div class="col-3"></div>
-
             </div>
         </div>
     </div>
+
+    <div style="padding-bottom: 100px;"></div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

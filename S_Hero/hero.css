@@ -1,17 +1,32 @@
-p {
-    font-size: 20px;
-    border-radius: 200px;
-    background-color: #c2c0bc;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
-}
-
 body {
-    background-image: url(https://wallpapercave.com/wp/wp2643985.jpg);
+    background-color: #1A1A1D;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #id {
-    background-color: #c2c0bc;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+.card {
+    background-image: url(https://designshack.net/wp-content/uploads/background-textures.png);
+    box-shadow: aliceblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px aliceblue;
+}
+
+#srch {
+    color: white;
+    background-color: #C3073F;
+    border-radius: 10px;
+    padding-left: 41%;
+    padding-right: 41%;
+    border: 0px;
 }
